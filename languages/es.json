@@ -1,0 +1,41 @@
+{
+    "navbar": {
+        "home-option": "Inicio",
+        "experience-option": "Experiencia",
+        "projects-option": "Proyectos",
+        "education-option": "Estudios",
+        "skills-option": "Habilidades",
+        "button-cv": "Descargar CV"
+    },
+    
+    "dashboard": {
+        "title": "Hola, soy Mauricio Páez <br> un Desarrollador web.",
+        "description": "Componiendo aplicaciones y sitios web a través de componentes y muchos más.",
+        "contact": "Contáctame",
+        "picture": "Mi Foto"
+    },
+
+    "experience": {
+        "experience": "Experiencia de Trabajo",
+        "my-experience": "Mi Experiencia",
+        "picture": "Imagen que tenga relacion"
+    },
+
+    "kajabi": {
+        "date": "2024-Actualmente",
+        "role": "Agente de Servicio al Cliente Bilingüe (Ingles - Español)",
+        "description": "Soporte técnico y asesoramiento a clientes de la plataforma Kajabi respecto a conexión de dominios, diseño del sitio web y uso de integraciones en la plataforma."
+    },
+
+    "ifix": {
+        "date": "2023-2024",
+        "role": "Asistente de Proyectos Bilingue (Español - Ingles)",
+        "description": "Manejo de documentos, Excel, Google Sheets, asistencia en tareas de soporte técnico o agendamiento de citas y reportes de ventas."
+    },
+
+    "metamask": {
+        "date": "2022-2023",
+        "role": "Agente de Servicio al Cliente Bilingüe (Ingles - Español)",
+        "description": "Soporte técnico a usuarios de la billetera digital Metamask y asesoramiento en el funcionamiento de la blockchain."
+    }
+}

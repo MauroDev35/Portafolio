@@ -1,0 +1,41 @@
+{
+    "navbar": {
+        "home-option": "Home",
+        "experience-option": "Experience",
+        "projects-option": "Projects",
+        "education-option": "Education",
+        "skills-option": "Skills",
+        "button-cv": "Download CV"
+    },
+
+    "dashboard": {
+        "title": "Hi, I'm Mauricio Páez <br> a Web Developer.",
+        "description": "Composing websites and apps through components and much more.",
+        "contact": "Contact Me",
+        "picture": "My Picture"
+    },
+
+    "experience": {
+        "experience": "Job Experience",
+        "my-experience": "My Experience",
+        "picture": "Related picture"
+    },
+
+    "kajabi": {
+        "date": "2024-Currently",
+        "role": "Bilingual Customer Support Agent (English - Spanish)",
+        "description": "Technical and customer support for Kajabi’s clients with custom domain connection, custom email domain connection, setting third party app integrations and web design."
+    },
+
+    "ifix": {
+        "date": "2023-2024",
+        "role": "Bilingual Project Assistant (English - Spanish)",
+        "description": "Managing Excel, Google Sheets, technical support for the stores, schedule appointments and sales reports."
+    },
+
+    "metamask": {
+        "date": "2022-2023",
+        "role": "Bilingual Customer Support Agent (English - Spanish)",
+        "description": "Technical support for the MetaMask wallet as well as assistance about the blockchain."
+    }
+}
