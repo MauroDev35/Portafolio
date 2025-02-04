@@ -37,5 +37,16 @@
         "date": "2022-2023",
         "role": "Agente de Servicio al Cliente Bilingüe (Ingles - Español)",
         "description": "Soporte técnico a usuarios de la billetera digital Metamask y asesoramiento en el funcionamiento de la blockchain."
+    },
+
+    "education": {
+        "title": "Educación",
+        "subtitle": "Mi Educación",
+        "level": "Bachillerato"
+    },
+
+    "skills": {
+        "title": "Lenguajes",
+        "subtitle": "Mi Nivel De Conocimiento en Software"
     }
 }

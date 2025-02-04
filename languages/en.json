@@ -37,5 +37,16 @@
         "date": "2022-2023",
         "role": "Bilingual Customer Support Agent (English - Spanish)",
         "description": "Technical support for the MetaMask wallet as well as assistance about the blockchain."
+    },
+
+    "education": {
+        "title": "Education",
+        "subtitle": "My Education",
+        "level": "High School"
+    },
+
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My Level of Knowledge in Software"
     }
 }
