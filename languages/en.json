@@ -9,6 +9,7 @@
     },
 
     "dashboard": {
+        "span": "WELCOME TO MY WORLD",
         "title": "Hi, I'm Mauricio Páez <br> a Web Developer.",
         "description": "Composing websites and apps through components and much more.",
         "contact": "Contact Me",

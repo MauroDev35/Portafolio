@@ -9,6 +9,7 @@
     },
     
     "dashboard": {
+        "span": "BIENVENIDO A MI MUNDO",
         "title": "Hola, soy Mauricio Páez <br> un Desarrollador web.",
         "description": "Componiendo aplicaciones y sitios web a través de componentes y muchos más.",
         "contact": "Contáctame",

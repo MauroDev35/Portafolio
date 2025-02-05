@@ -23,12 +23,14 @@ html {
     --text-subheader: 2rem;
     --text-title: 2.8rem;
     --text-headline: 4.2rem;
+    --text-double: 4.8rem;
     --text-display: 8.8rem;
     --text-jumbo: 14rem;
 
     /* Colores */
     --primary-1:#040210;
     --primary-2:#050315;
+    --primary-3: #43414c;
 
     --secondary-1:#fbfbfe;
     
@@ -53,14 +55,19 @@ body {
 
 /* Navbar */
 
+.navbar-container {
+    background-color: var(--primary-1); 
+}
+
 
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
     height: 60px;
+    margin: 0 200px;
 
     background-color: var(--primary-1);
     color: var(--secondary-1);
@@ -100,7 +107,10 @@ body {
 .navbar-menu li a{
     color: var(--secondary-1);
     text-decoration: none;
+}
 
+.navbar-menu li a:hover {
+    color: var(--accent-1);
 }
 
 .primary-button {
@@ -140,6 +150,37 @@ body {
     border-radius: 5px;
 }
 
-h1 {
+.dashboard {
+    display: flex;
+    flex-direction: row;
+
+    margin: 240px 200px 0 200px;
+    padding: 0 15px;
+}
+
+.dashboard-content {
+    height: 645px;
+}
+
+.span-1 {
+    margin: 0 0 20px;
+
+    font-size: var(--text-subheader);
+    font-weight: 300;
+    color: var(--primary-3);
+}
+
+.title {
+    margin: 0 0 20px;
+
+    font-size: var(--text-double);
+    font-weight: 600;
+}
+
+.span-2 {
+    color: var(--accent-1);
+}
+
+aside {
     margin-top: 80px;
 }
