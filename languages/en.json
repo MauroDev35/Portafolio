@@ -9,7 +9,7 @@
     },
 
     "dashboard": {
-        "title": "Hi, I'm Mauricio Páez a Web Developer.",
+        "title": "Hi, I'm Mauricio Páez <br> a Web Developer.",
         "description": "Composing websites and apps through components and much more.",
         "contact": "Contact Me",
         "picture": "My Picture"

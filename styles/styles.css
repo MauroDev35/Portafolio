@@ -1,3 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+
+html {
+    /* Escala tipografica */
+    font-size: 62.5%;
+
+    /* Familias tipograficas */
+    --font-1: 'Poppins', sans-serif;
+
+    /* Variables tipograficas */
+    --text-caption: 1.2rem;
+    --text-note: 1.4rem;
+    --text-base: 1.8rem;
+    --text-subheader: 2rem;
+    --text-title: 2.8rem;
+    --text-headline: 4.2rem;
+    --text-display: 8.8rem;
+    --text-jumbo: 14rem;
+
+    /* Colores */
+    --primary-1:#040210;
+    --primary-2:#050315;
+
+    --secondary-1:#fbfbfe;
+    
+    --accent-1:#df0145;
+
+    /* Estilos para el scrollbar */
+    scrollbar-width: none;
+}
+
+/* Estilos del Body */
+
+body {
+    font-family: var(--font-1);
+    font-weight: 300;
+    font-size: var(--text-base);
+    color: var(--primary-2);
+
+    background-color: var(--secondary-1);
+}
+
+/* Estilos del Dashboard */
+
+/* Navbar */
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 60px;
+
+    background-color: var(--primary-1);
+    color: var(--secondary-1);
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.logo {
+    font-family: var(--font-1);
+    font-size: var(--text-headline);
+    font-weight: 700;
+    color: var(--accent-1);
+}
+
+.navbar-menu li {
+    margin: 0 1.2rem 0 0;
+}
+
+.navbar-menu li:nth-child(1) a{
+    color: var(--accent-1);
+}
+
+.navbar-menu li a{
+    color: var(--secondary-1);
+    text-decoration: none;
+
+}
+
+.primary-button {
+    height: 40px;
+    width: 160px;
+
+    font-family: var(--font-1);
+    font-size: var(--text-base);
+    font-weight: 400;
+
+    background-color: var(--primary-1);
+    color: var(--secondary-1);
+
+    border: 2px solid var(--accent-1);
+    border-radius: 5px;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-1);
+}
+
 .flags {
     width: 75px;
     display: flex;
@@ -12,4 +136,10 @@
 .flags_img {
     display: block;
     cursor: pointer;
+
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 80px;
 }
