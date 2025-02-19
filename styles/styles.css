@@ -160,6 +160,7 @@ body {
 
 .dashboard-content {
     height: 645px;
+    width: 800px;
 }
 
 .span-1 {
@@ -181,6 +182,87 @@ body {
     color: var(--accent-1);
 }
 
+.description-container {
+    width: 100%;
+}
+
+.contact-container {
+    width: 100%;
+
+    margin-top: 120px;
+}
+
+.text-contact {
+    font-weight: 500;
+    font-size: var(--text-note);
+    text-transform: uppercase;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    width: 60px;
+    height: 60px;
+
+    margin: 0 16px 0 0;
+    border-radius: 6px;
+
+    -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+    -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+.social-links:hover {
+    background-color: var(--accent-1);
+}
+
+.social-icons {
+    width: 25px;
+
+    position: relative;
+    top: 17px;
+    left: 17px;
+}
+
+.social-icons:hover {
+    filter: invert(93%) sepia(66%) saturate(1564%) hue-rotate(183deg) brightness(117%) contrast(99%);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-contact {
+    margin-right: 12px;
+}
+
+.cv {
+    width: 30px;
+
+    position: relative;
+    top: 4px;
+}
+
 aside {
     margin-top: 80px;
+}
+
+#experience {
+    margin-top: 40px;
 }
